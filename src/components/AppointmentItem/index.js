@@ -21,7 +21,7 @@ const AppointmentItem = props => {
   return (
     <li className="appointment-container">
       <div className="title-star-container">
-        <h1 className="doctor-title">{title}</h1>
+        <p className="doctor-title">{title}</p>
         <button
           data-testid="star"
           onClick={onClickStar}
